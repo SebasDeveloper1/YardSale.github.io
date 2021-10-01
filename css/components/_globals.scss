@@ -1,0 +1,25 @@
+$color-primary: #acd9b2;
+$color-secondary: #c7c7c7;
+$color-dark: #232830;
+$color-text-input: #f7f7f7;
+$color-white: #ffffff;
+$color-Black: #000000;
+$font-one: "Quicksand", sans-serif;
+$font-two: "Roboto", sans-serif;
+$font-size-sm: 1.4rem;
+$font-size-md: 1.6rem;
+$font-size-lg: 1.8rem;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-one;
+}
