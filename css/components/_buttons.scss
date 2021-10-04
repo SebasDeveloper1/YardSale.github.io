@@ -1,0 +1,21 @@
+.primary-button {
+    width: 100%;
+    padding: 17px;
+    border-radius: 10px;
+    background-color: $color-primary;
+    font-size: $font-size-md;
+    font-weight: 700;
+    color: $color-white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.primary-button:hover {
+    text-decoration: none;
+    color: $color-white;
+}
+
+.button-new-password {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
