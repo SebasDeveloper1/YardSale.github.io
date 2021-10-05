@@ -23,7 +23,9 @@
 }
 
 .login-form {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 90%;
+    height: 80vh;
 }
