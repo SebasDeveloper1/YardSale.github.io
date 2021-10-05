@@ -41,6 +41,7 @@ body {
 }
 
 .login-form {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,6 +50,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
+  height: 80vh;
 }
 
 .title-primary {
@@ -195,6 +197,6 @@ body {
 }
 
 .button-secondary--login {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  position: absolute;
+  bottom: 0;
 }

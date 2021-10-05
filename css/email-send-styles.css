@@ -186,6 +186,6 @@ body {
 }
 
 .button-secondary--login {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  position: absolute;
+  bottom: 0;
 }
