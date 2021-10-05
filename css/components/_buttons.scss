@@ -1,4 +1,4 @@
-.primary-button {
+.button-primary {
     width: 100%;
     padding: 17px;
     border-radius: 10px;
@@ -10,12 +10,44 @@
     text-align: center;
 }
 
-.primary-button:hover {
+.button-primary:hover {
     text-decoration: none;
     color: $color-white;
 }
 
-.button-new-password {
+.button-secondary{
+    width: 100%;
+    padding: 17px;
+    border: 2px solid $color-primary;;
+    border-radius: 10px;
+    background-color: $color-white;
+    font-size: $font-size-md;
+    font-weight: 700;
+    color: $color-primary;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-secondary:hover {
+    text-decoration: none;
+    color: $color-primary;
+}
+
+.button-primary--login{
     margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.button--new-password {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.button--email-send{
+    margin-bottom: 20px;
+}
+
+.button-secondary--login{
+    margin-top: 40px;
     margin-bottom: 30px;
 }

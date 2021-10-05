@@ -1,28 +1,28 @@
-.new-password-container {
+.login-container {
     width: 100%;
     height: 100vh;
     display: grid;
     place-items: center; //centra los items vert y hori
 }
 
-.new-password {
+.login {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 360px;
     justify-items: center;
 }
 
-.new-password__logo-container {
+.login__logo-container {
     width: 150px;
     margin-bottom: 50px;
 
-    .new-password__logo-container-img {
+    .login__logo-container-img {
         width: 100%;
         object-fit: cover;
     }
 }
 
-.new-password-form {
+.login-form {
     display: flex;
     flex-direction: column;
     width: 90%;

@@ -1,0 +1,61 @@
+.title-primary {
+    font-size: $font-size-lg;
+    color: $color-Black;
+}
+
+.title-primary--new-password {
+    margin-bottom: 12px;
+}
+
+.subtitle-primary {
+    font-size: $font-size-md;
+    font-weight: 300;
+    color: $color-dark;
+}
+
+.subtitle-primary--new-password {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.subtitle-primary--email-send {
+    margin-bottom: 30px;
+}
+
+.span-primary {
+    font-size: $font-size-sm;
+    font-weight: normal;
+    color: $color-dark;
+}
+
+.span-primary--email-send {
+    margin-bottom: 30px;
+}
+
+.link-primary {
+    font-size: $font-size-sm;
+    font-weight: normal;
+    color: $color-primary;
+    cursor: pointer;
+}
+
+.link-primary:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.span-secondary {
+    font-size: $font-size-sm;
+    font-weight: normal;
+    color: $color-primary;
+    cursor: pointer;
+}
+
+.span--secondary--login {
+    text-align: center;
+}
+
+.span--secondary--login:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}

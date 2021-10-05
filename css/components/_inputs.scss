@@ -1,10 +1,17 @@
-.form__label-input-new-password {
+.form__label-input-primary {
     font-size: $font-size-sm;
     font-weight: 700;
+}
+
+.form__label-input-primary--new-password {
     margin-bottom: 4px;
 }
 
-.form__input {
+.form__label-input-primary--login {
+    margin-bottom: 4px;
+}
+
+.form__input-primary {
     width: 100%;
     height: 44px;
     border-radius: 10px;
@@ -13,5 +20,12 @@
     outline: none;
     font-size: $font-size-md;
     padding: 6px;
+}
+
+.input--new-password {
+    margin-bottom: 14px;
+}
+
+.input--login {
     margin-bottom: 14px;
 }
