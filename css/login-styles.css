@@ -50,7 +50,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
-  height: 80vh;
+  height: 60vh;
 }
 
 .title-primary {
