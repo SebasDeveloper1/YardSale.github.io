@@ -1,29 +1,18 @@
-.login-container {
+.account-container {
     width: 100%;
     height: 100vh;
     display: grid;
     place-items: center; //centra los items vert y hori
 }
 
-.login {
+.account {
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 360px;
     justify-items: center;
 }
 
-.login__logo-container {
-    width: 150px;
-    margin-bottom: 50px;
-
-    .login__logo-container-img {
-        width: 100%;
-        object-fit: cover;
-    }
-}
-
-.login-form {
-    position: relative;
+.account-form {
     display: flex;
     flex-direction: column;
     width: 90%;

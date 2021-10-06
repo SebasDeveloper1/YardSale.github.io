@@ -83,6 +83,13 @@ body {
   margin-bottom: 12px;
 }
 
+.title-primary--account {
+  -ms-grid-column-align: left;
+      justify-self: left;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+
 .subtitle-primary {
   font-size: 1.6rem;
   font-weight: 300;
@@ -176,6 +183,11 @@ body {
   margin-bottom: 30px;
 }
 
+.button--account {
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
 .button--new-password {
   margin-top: 12px;
   margin-bottom: 30px;
@@ -186,6 +198,6 @@ body {
 }
 
 .button-secondary--login {
-  position: absolute;
-  bottom: 0;
+  margin-top: 80px;
+  margin-bottom: 10px;
 }

@@ -15,10 +15,10 @@
     color: $color-white;
 }
 
-.button-secondary{
+.button-secondary {
     width: 100%;
     padding: 17px;
-    border: 2px solid $color-primary;;
+    border: 2px solid $color-primary;
     border-radius: 10px;
     background-color: $color-white;
     font-size: $font-size-md;
@@ -33,7 +33,12 @@
     color: $color-primary;
 }
 
-.button-primary--login{
+.button-primary--login {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.button--account {
     margin-top: 12px;
     margin-bottom: 30px;
 }
@@ -43,11 +48,11 @@
     margin-bottom: 30px;
 }
 
-.button--email-send{
+.button--email-send {
     margin-bottom: 20px;
 }
 
-.button-secondary--login{
-    position: absolute;
-    bottom: 0;
+.button-secondary--login {
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
