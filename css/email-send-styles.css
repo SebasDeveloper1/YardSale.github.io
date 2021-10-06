@@ -90,6 +90,13 @@ body {
   margin-bottom: 50px;
 }
 
+.title-primary--account-edit {
+  -ms-grid-column-align: left;
+      justify-self: left;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+
 .subtitle-primary {
   font-size: 1.6rem;
   font-weight: 300;
@@ -141,6 +148,16 @@ body {
 .span--secondary--login:hover {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.form__text-primary {
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #c7c7c7;
+}
+
+.text--account-edit {
+  margin-bottom: 34px;
 }
 
 .button-primary {
@@ -201,4 +218,10 @@ body {
 .button-secondary--login {
   margin-top: 80px;
   margin-bottom: 10px;
+}
+
+.button--account-edit {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  width: 90%;
 }

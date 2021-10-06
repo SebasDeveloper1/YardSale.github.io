@@ -1,0 +1,9 @@
+.account-edit {
+  height: auto;
+  -ms-flex-line-pack: auto;
+      align-content: auto;
+}
+
+.account-edit-form {
+  height: auto;
+}

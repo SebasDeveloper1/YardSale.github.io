@@ -7,10 +7,16 @@
     margin-bottom: 12px;
 }
 
-.title-primary--account{
-  justify-self: left;  
-  margin-left: 5%;
-  margin-bottom: 50px;
+.title-primary--account {
+    justify-self: left;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.title-primary--account-edit {
+    justify-self: left;
+    margin-left: 5%;
+    margin-bottom: 50px;
 }
 
 .subtitle-primary {
@@ -64,4 +70,14 @@
 .span--secondary--login:hover {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.form__text-primary {
+    font-size: $font-size-md;
+    font-weight: normal;
+    color: $color-secondary;
+}
+
+.text--account-edit {
+    margin-bottom: 34px;
 }
